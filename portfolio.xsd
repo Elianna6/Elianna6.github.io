@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Définition du type personnalisé pour les textes multilingues -->
+    <!-- Cela oblige chaque balise l'utilisant à avoir un attribut "lang" -->
+    <xs:complexType name="TexteMultilingue">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="lang" type="xs:language" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <!-- Structure principale du document -->
+    <xs:element name="portfolio">
+        <xs:complexType>
+            <xs:sequence>
+                
+                <!-- Règles pour le Profil -->
+                <xs:element name="profil">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nom" type="xs:string"/>
+                            <xs:element name="titres">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <!-- maxOccurs="unbounded" permet d'avoir plusieurs langues -->
+                                        <xs:element name="titre" type="TexteMultilingue" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="accroches">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="accroche" type="TexteMultilingue" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="contacts">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="telephone" type="xs:string"/>
+                                        <xs:element name="email" type="xs:string"/>
+                                        <xs:element name="linkedin" type="xs:anyURI"/>
+                                        <xs:element name="github" type="xs:anyURI"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- Règles pour les Expériences -->
+                <xs:element name="experiences">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="experience" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="dates" type="xs:string"/>
+                                        <xs:element name="entreprise" type="xs:string"/>
+                                        <xs:element name="intitules">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="intitule" type="TexteMultilingue" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="descriptions">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="description" type="TexteMultilingue" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <!-- Oblige chaque expérience à avoir un ID unique -->
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- Règles pour les Projets (Structure similaire aux expériences) -->
+                <xs:element name="projets">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="projet" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titres">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="titre" type="TexteMultilingue" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="descriptions">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="description" type="TexteMultilingue" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- Règles pour les Formations -->
+                <xs:element name="formations">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="formation" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="dates" type="xs:string"/>
+                                        <xs:element name="ecole" type="xs:string"/>
+                                        <xs:element name="intitules">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="intitule" type="TexteMultilingue" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

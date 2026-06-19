@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+    <!-- ========================================== -->
+    <!-- DESCRIPTION DE LA PERSONNE (VOUS)          -->
+    <!-- ========================================== -->
+    <foaf:Person rdf:about="#khejia">
+        <!-- Identité fondamentale -->
+        <foaf:name>Khejia Fanambimiadantsoa</foaf:name>
+        <foaf:title>Ingénieure Informatique</foaf:title>
+        
+        <!-- Coordonnées et présence en ligne -->
+        <foaf:mbox rdf:resource="mailto:khejia6@gmail.com"/>
+        <foaf:homepage rdf:resource="https://github.com/Elianna6"/>
+        
+        <!-- Lien sémantique vers votre école -->
+        <foaf:schoolHomepage rdf:resource="https://galilee.univ-paris13.fr/"/>
+
+        <!-- Liens sémantiques vers VOS créations (vos projets) -->
+        <foaf:made rdf:resource="#projet_biblio"/>
+        <foaf:made rdf:resource="#projet_huffman"/>
+    </foaf:Person>
+
+    <!-- ========================================== -->
+    <!-- DESCRIPTION DES PROJETS (VOS CREATIONS)    -->
+    <!-- ========================================== -->
+    
+    <!-- Projet 1 -->
+    <foaf:Project rdf:about="#projet_biblio">
+        <dc:title>Bibliothèque Numérique</dc:title>
+        <dc:description>Infrastructure complète avec Python, FastAPI et PostgreSQL.</dc:description>
+    </foaf:Project>
+
+    <!-- Projet 2 -->
+    <foaf:Project rdf:about="#projet_huffman">
+        <dc:title>Codage de Huffman</dc:title>
+        <dc:description>Implémentation de l'algorithme de compression.</dc:description>
+    </foaf:Project>
+
+</rdf:RDF>
