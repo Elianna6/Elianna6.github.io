@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:complexType name="TexteMultilingue">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="lang" type="xs:language" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:element name="portfolio">
+        <xs:complexType>
+            <xs:sequence>
+                
+                <xs:element name="profil" type="xs:anyType" />
+                <xs:element name="experiences" type="xs:anyType" />
+
+                <!-- Formations -->
+                <xs:element name="formations">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="formation" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="dates" type="xs:string"/>
+                                        <xs:element name="ecole" type="xs:string"/>
+                                        <xs:element name="intitules">
+                                            <xs:complexType><xs:sequence><xs:element name="intitule" type="TexteMultilingue" maxOccurs="unbounded"/></xs:sequence></xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="descriptions" minOccurs="0">
+                                            <xs:complexType><xs:sequence><xs:element name="description" type="TexteMultilingue" maxOccurs="unbounded"/></xs:sequence></xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- Compétences Mises à Jour (Accepte des descriptions) -->
+                <xs:element name="competences">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="categorie" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titre" type="TexteMultilingue" maxOccurs="unbounded"/>
+                                        <xs:element name="item" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nom" type="TexteMultilingue" maxOccurs="unbounded"/>
+                                                    <xs:element name="details" type="TexteMultilingue" minOccurs="0" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- Projets -->
+                <xs:element name="projets">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="projet" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titres">
+                                            <xs:complexType><xs:sequence><xs:element name="titre" type="TexteMultilingue" maxOccurs="unbounded"/></xs:sequence></xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="descriptions">
+                                            <xs:complexType><xs:sequence><xs:element name="description" type="TexteMultilingue" maxOccurs="unbounded"/></xs:sequence></xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="roles" minOccurs="0">
+                                            <xs:complexType><xs:sequence><xs:element name="role" type="TexteMultilingue" maxOccurs="unbounded"/></xs:sequence></xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="competences_cles" minOccurs="0">
+                                            <xs:complexType><xs:sequence><xs:element name="competence" type="TexteMultilingue" maxOccurs="unbounded"/></xs:sequence></xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

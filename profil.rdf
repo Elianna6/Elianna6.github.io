@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:schema="http://schema.org/">
+
+    <foaf:Person rdf:about="#khejia">
+        <!-- Identité fondamentale -->
+        <foaf:name>Khejia Fanambimiadantsoa</foaf:name>
+        <foaf:title>Ingénieure Informatique</foaf:title>
+        
+        <!-- Compétences Sémantiques & Techniques pour les requêtes SPARQL -->
+        <schema:knowsAbout>Web Sémantique</schema:knowsAbout>
+        <schema:knowsAbout>Modélisation de données (RDF)</schema:knowsAbout>
+        <schema:knowsAbout>Enrichissement sémantique (RDFa / Schema.org)</schema:knowsAbout>
+        <schema:knowsAbout>Ontologies standards (FOAF)</schema:knowsAbout>
+        <schema:knowsAbout>Interrogation de graphes (SPARQL)</schema:knowsAbout>
+        <schema:knowsAbout>Analyse sémantique (Corese)</schema:knowsAbout>
+        <schema:knowsAbout>Architecture XML</schema:knowsAbout>
+        <schema:knowsAbout>Conception de grammaires (DTD)</schema:knowsAbout>
+        <schema:knowsAbout>Extraction de données (XPath)</schema:knowsAbout>
+        <schema:knowsAbout>Validation de code (xmllint)</schema:knowsAbout>
+        <schema:knowsAbout>Intégration Web stricte (XHTML5 / CSS3)</schema:knowsAbout>
+        <schema:knowsAbout>Développement SVG</schema:knowsAbout>
+
+        <!-- Coordonnées et présence en ligne -->
+        <foaf:mbox rdf:resource="mailto:khejia6@gmail.com"/>
+        <foaf:homepage rdf:resource="https://github.com/Elianna6"/>
+        <foaf:schoolHomepage rdf:resource="https://galilee.univ-paris13.fr/"/>
+        <foaf:made rdf:resource="#projet_biblio"/>
+        <foaf:made rdf:resource="#projet_huffman"/>
+    </foaf:Person>
+
+    <!-- Projets -->
+    <foaf:Project rdf:about="#projet_biblio">
+        <dc:title>Bibliothèque Numérique</dc:title>
+        <dc:description>Infrastructure complète avec Python, FastAPI et PostgreSQL.</dc:description>
+    </foaf:Project>
+
+    <foaf:Project rdf:about="#projet_huffman">
+        <dc:title>Codage de Huffman</dc:title>
+        <dc:description>Implémentation complète de l'algorithme de compression.</dc:description>
+    </foaf:Project>
+</rdf:RDF>

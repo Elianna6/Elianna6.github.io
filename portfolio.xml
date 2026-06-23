@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="portfolio.xsd">
+    
+    <profil>
+        <nom>Khejia Fanambimiadantsoa</nom>
+        <titres>
+            <titre lang="fr">Ingénieure Informatique | Systèmes, Réseaux, Data &amp; Gestion de Projet</titre>
+            <titre lang="en">IT Engineer | Systems, Networks, Data &amp; Project Management</titre>
+            <titre lang="zh">IT工程师 | 系统、网络、数据与项目管理</titre>
+        </titres>
+        <citations>
+            <citation lang="fr">"Créer des ponts entre la technique et l'humain pour des projets performants."</citation>
+            <citation lang="en">"Building bridges between technology and people for high-performance projects."</citation>
+            <citation lang="zh">"在技术与人之间搭建桥梁，实现高效的项目。"</citation>
+        </citations>
+        <accroches>
+            <accroche lang="fr">Actuellement étudiante ingénieure en informatique (2e année) spécialisée en Systèmes, Réseaux et Data à Sup Galilée. Passionnée par la coordination d'équipes et l'assurance qualité, je suis à la recherche d’un stage de 9 semaines (mars – août 2027) orienté vers la Gestion de projet, la QA ou la coordination d'équipes techniques.</accroche>
+            <accroche lang="en">Currently a 2nd-year IT engineering student specializing in Systems, Networks, and Data at Sup Galilée. Passionate about team coordination and QA, I am looking for a 9-week internship (March – August 2027) focused on Project Management, QA, or technical team coordination.</accroche>
+            <accroche lang="zh">目前是Sup Galilée系统、网络和数据专业的二年级IT工程学生。我对团队协调和QA充满热情，正在寻找为期9周的实习（2027年3月至8月），专注于项目管理、QA或技术团队协调。</accroche>
+        </accroches>
+        <atouts>
+            <atout>
+                <titre lang="fr">Vision 360°</titre>
+                <titre lang="en">360° Vision</titre>
+                <titre lang="zh">360°视野</titre>
+                <description lang="fr">Capacité à dialoguer avec les développeurs, les administrateurs et les équipes métiers.</description>
+                <description lang="en">Ability to communicate with developers, administrators, and business teams.</description>
+                <description lang="zh">能够与开发人员、管理员和业务团队进行沟通。</description>
+            </atout>
+            <atout>
+                <titre lang="fr">Rigueur &amp; Qualité</titre>
+                <titre lang="en">Rigor &amp; Quality</titre>
+                <titre lang="zh">严谨与质量</titre>
+                <description lang="fr">Appétence pour les tests applicatifs, le débogage et la documentation claire.</description>
+                <description lang="en">Appetite for application testing, debugging, and clear documentation.</description>
+                <description lang="zh">热衷于应用程序测试、调试和清晰的文档。</description>
+            </atout>
+        </atouts>
+        <contacts>
+            <telephone>07 74 55 21 37</telephone>
+            <email>khejia6@gmail.com</email>
+            <linkedin>https://www.linkedin.com/in/khejia-fanambimiadantsoa-32b298261/</linkedin>
+            <github>https://github.com/Elianna6</github>
+        </contacts>
+    </profil>
+
+    <experiences>
+        <experience id="exp1" type="pro">
+            <dates>Oct. 2025 – Août 2027</dates>
+            <entreprise>Bettane + Desseauve</entreprise>
+            <intitules>
+                <intitule lang="fr">Alternante Administration Système, Réseaux &amp; Gestion de Projet</intitule>
+                <intitule lang="en">System, Network &amp; Project Management Apprentice</intitule>
+                <intitule lang="zh">系统、网络与项目管理学徒</intitule>
+            </intitules>
+            <descriptions>
+                <description lang="fr">Véritable rôle charnière au sein de l'entreprise, cette alternance me permet de piloter des projets d'infrastructure tout en assurant le lien entre les équipes de développement et les métiers de l'événementiel.</description>
+                <description lang="en">A pivotal role within the company, managing infrastructure projects while ensuring the link between development teams and event business units.</description>
+                <description lang="zh">作为公司内部的关键角色，管理基础设施项目，同时确保开发团队和活动业务部门之间的联系。</description>
+            </descriptions>
+            <taches>
+                <tache lang="fr">Gestion de projet &amp; Coordination : Recueil des besoins, suivi des sprints via Trello, documentation sur Wiki.js.</tache>
+                <tache lang="en">Project Mgt &amp; Coordination: Requirements gathering, sprint tracking via Trello, documentation on Wiki.js.</tache>
+                <tache lang="zh">项目管理与协调：需求收集，通过Trello进行冲刺跟踪，Wiki.js上的文档编写。</tache>
+                <tache lang="fr">QA &amp; Déploiement : Tests applicatifs, suivi des bugs, création d'environnements de test conteneurisés (Docker).</tache>
+                <tache lang="en">QA &amp; Deployment: App testing, bug tracking, creating containerized test environments (Docker).</tache>
+                <tache lang="zh">QA与部署：应用测试，错误跟踪，创建容器化测试环境（Docker）。</tache>
+                <tache lang="fr">Supervision &amp; Infrastructure : Zabbix, Grafana, VLANs, Active Directory, Proxmox VE, Rancher/K3s.</tache>
+                <tache lang="en">Supervision &amp; Infrastructure: Zabbix, Grafana, VLANs, Active Directory, Proxmox VE, Rancher/K3s.</tache>
+                <tache lang="zh">监控与基础设施：Zabbix, Grafana, VLANs, Active Directory, Proxmox VE, Rancher/K3s。</tache>
+                <tache lang="fr">Innovation IA : Déploiement d'IA locales (Ollama, Claude Code) pour optimiser les processus.</tache>
+                <tache lang="en">AI Innovation: Deployment of local AIs (Ollama, Claude Code) to optimize processes.</tache>
+                <tache lang="zh">人工智能创新：部署本地人工智能（Ollama, Claude Code）以优化流程。</tache>
+            </taches>
+        </experience>
+        
+        <experience id="exp2" type="pro">
+            <dates>2023</dates>
+            <entreprise>Salvia Développement</entreprise>
+            <intitules>
+                <intitule lang="fr">Stagiaire Découverte DSI (Data)</intitule>
+                <intitule lang="en">IT Department Intern (Data)</intitule>
+                <intitule lang="zh">IT部门实习生（数据）</intitule>
+            </intitules>
+            <descriptions>
+                <description lang="fr">Immersion au sein d'une DSI. Collecte, traitement et modélisation de données complexes pour créer des tableaux de bord interactifs et des visualisations stratégiques sous Power BI.</description>
+                <description lang="en">Immersion in an IT department. Complex data collection, processing, and modeling to create interactive dashboards under Power BI.</description>
+                <description lang="zh">沉浸在IT部门。复杂的数据收集、处理和建模，以在Power BI下创建交互式仪表板。</description>
+            </descriptions>
+        </experience>
+
+        <experience id="exp3" type="asso">
+            <dates>Depuis juin 2024</dates>
+            <entreprise>Bureau des Étudiants (Sup Galilée)</entreprise>
+            <intitules>
+                <intitule lang="fr">Membre Pôle Événement</intitule>
+                <intitule lang="en">Event Committee Member</intitule>
+                <intitule lang="zh">活动委员会成员</intitule>
+            </intitules>
+            <descriptions>
+                <description lang="fr">Gestion de projet événementiel (conception à logistique). Coordination d'équipes, gestion de budget et campagnes de communication.</description>
+                <description lang="en">Event project management (from design to logistics). Team coordination, budget management, and communication campaigns.</description>
+                <description lang="zh">活动项目管理（从设计到物流）。团队协调，预算管理和沟通活动。</description>
+            </descriptions>
+        </experience>
+
+        <experience id="exp4" type="asso">
+            <dates>Jan. - Avril 2022</dates>
+            <entreprise>Association WLH</entreprise>
+            <intitules>
+                <intitule lang="fr">Coordinatrice de Projet</intitule>
+                <intitule lang="en">Project Coordinator</intitule>
+                <intitule lang="zh">项目协调员</intitule>
+            </intitules>
+            <descriptions>
+                <description lang="fr">Planification stratégique et suivi opérationnel. Animation de réunions et répartition des tâches pour garantir la livraison des projets.</description>
+                <description lang="en">Strategic planning and operational tracking. Leading meetings and distributing tasks to ensure project delivery.</description>
+                <description lang="zh">战略规划和运营跟踪。领导会议并分配任务以确保项目交付。</description>
+            </descriptions>
+        </experience>
+    </experiences>
+
+    <formations>
+        <formation id="form1">
+            <dates>2024 – 2027</dates>
+            <ecole>Sup Galilée, Université Sorbonne Paris Nord</ecole>
+            <intitules>
+                <intitule lang="fr">Diplôme d'Ingénieur en Informatique (Bac+5)</intitule>
+                <intitule lang="en">Computer Engineering Degree (Master's equivalent)</intitule>
+                <intitule lang="zh">计算机工程学位（硕士同等学历）</intitule>
+            </intitules>
+            <descriptions>
+                <description lang="fr">Spécialisation Systèmes, Réseaux &amp; Data. Acquisition de compétences avancées en architecture logicielle, algorithmique, bases de données et gestion de projets agiles.</description>
+                <description lang="en">Specialization in Systems, Networks &amp; Data. Acquisition of advanced skills in software architecture, algorithms, databases, and agile project management.</description>
+                <description lang="zh">专注于系统、网络和数据。获得软件架构、算法、数据库和敏捷项目管理方面的高级技能。</description>
+            </descriptions>
+        </formation>
+        
+        <formation id="form2">
+            <dates>2022 – 2024</dates>
+            <ecole>Sup Galilée</ecole>
+            <intitules>
+                <intitule lang="fr">Cycle Préparatoire Intégré</intitule>
+                <intitule lang="en">Integrated Preparatory Classes</intitule>
+                <intitule lang="zh">综合预备课程</intitule>
+            </intitules>
+            <descriptions>
+                <description lang="fr">Formation scientifique exigeante (Mathématiques, Physique, Informatique fondamentale) forgeant une forte capacité d'analyse et de résolution de problèmes complexes.</description>
+                <description lang="en">Demanding scientific training (Mathematics, Physics, Fundamental Computer Science) building strong analytical and complex problem-solving skills.</description>
+                <description lang="zh">严格的科学培训（数学、物理、基础计算机科学），培养强大的分析和复杂问题解决能力。</description>
+            </descriptions>
+        </formation>
+        
+        <formation id="form3">
+            <dates>2021</dates>
+            <ecole>École Bird, Madagascar</ecole>
+            <intitules>
+                <intitule lang="fr">Baccalauréat</intitule>
+                <intitule lang="en">High School Diploma</intitule>
+                <intitule lang="zh">高中毕业证书</intitule>
+            </intitules>
+        </formation>
+    </formations>
+
+    <!-- ========================================== -->
+    <!-- STACK TECHNIQUE & OUTILS                   -->
+    <!-- ========================================== -->
+    <competences>
+        <categorie>
+            <titre lang="fr">Web Sémantique</titre>
+            <titre lang="en">Semantic Web</titre>
+            <titre lang="zh">语义网</titre>
+            <item>
+                <nom lang="fr">Modélisation de données (RDF)</nom><nom lang="en">Data modeling (RDF)</nom><nom lang="zh">数据建模 (RDF)</nom>
+                <details lang="fr">Conception et traduction de modèles de données complexes.</details>
+                <details lang="en">Design and translation of complex data models.</details>
+                <details lang="zh">复杂数据模型的设计和转换。</details>
+            </item>
+            <item>
+                <nom lang="fr">Enrichissement sémantique (RDFa / Schema.org)</nom><nom lang="en">Semantic enrichment (RDFa / Schema.org)</nom><nom lang="zh">语义丰富 (RDFa / Schema.org)</nom>
+                <details lang="fr">Intégration de métadonnées directement dans le code HTML5 pour optimiser l'indexation.</details>
+                <details lang="en">Integration of metadata directly into HTML5 code to optimize indexing.</details>
+                <details lang="zh">将元数据直接集成到HTML5代码中以优化索引。</details>
+            </item>
+            <item>
+                <nom lang="fr">Ontologies standards (FOAF)</nom><nom lang="en">Standard ontologies (FOAF)</nom><nom lang="zh">标准本体 (FOAF)</nom>
+                <details lang="fr">Exploitation des vocabulaires de référence du Linked Open Data.</details>
+                <details lang="en">Exploitation of reference vocabularies from Linked Open Data.</details>
+                <details lang="zh">利用链接开放数据的参考词汇。</details>
+            </item>
+            <item>
+                <nom lang="fr">Interrogation de graphes (SPARQL)</nom><nom lang="en">Graph querying (SPARQL)</nom><nom lang="zh">图查询 (SPARQL)</nom>
+                <details lang="fr">Écriture de requêtes pour extraire des données depuis des bases sémantiques.</details>
+                <details lang="en">Writing queries to extract data from semantic databases.</details>
+                <details lang="zh">编写查询以从语义数据库中提取数据。</details>
+            </item>
+            <item>
+                <nom lang="fr">Analyse sémantique (Corese)</nom><nom lang="en">Semantic analysis (Corese)</nom><nom lang="zh">语义分析 (Corese)</nom>
+                <details lang="fr">Utilisation de moteurs de recherche sémantique pour le traitement des données RDF.</details>
+                <details lang="en">Use of semantic search engines for RDF data processing.</details>
+                <details lang="zh">使用语义搜索引擎处理RDF数据。</details>
+            </item>
+        </categorie>
+
+        <categorie>
+            <titre lang="fr">Structuration et Validation (XML)</titre>
+            <titre lang="en">Structuring and Validation (XML)</titre>
+            <titre lang="zh">结构化与验证 (XML)</titre>
+            <item>
+                <nom lang="fr">Architecture XML</nom><nom lang="en">XML Architecture</nom><nom lang="zh">XML架构</nom>
+                <details lang="fr">Création de documents XML bien formés pour structurer hiérarchiquement l'information.</details>
+                <details lang="en">Creation of well-formed XML documents to hierarchically structure information.</details>
+                <details lang="zh">创建格式良好的XML文档以分层构建信息。</details>
+            </item>
+            <item>
+                <nom lang="fr">Conception de grammaires (DTD)</nom><nom lang="en">Grammar design (DTD)</nom><nom lang="zh">语法设计 (DTD)</nom>
+                <details lang="fr">Écriture de règles de validation strictes pour garantir la conformité des données.</details>
+                <details lang="en">Writing strict validation rules to ensure data compliance.</details>
+                <details lang="zh">编写严格的验证规则以确保数据合规。</details>
+            </item>
+            <item>
+                <nom lang="fr">Extraction de données (XPath)</nom><nom lang="en">Data extraction (XPath)</nom><nom lang="zh">数据提取 (XPath)</nom>
+                <details lang="fr">Rédaction de requêtes ciblées pour naviguer et extraire des informations précises.</details>
+                <details lang="en">Writing targeted queries to navigate and extract precise information.</details>
+                <details lang="zh">编写目标查询以导航并提取精确信息。</details>
+            </item>
+            <item>
+                <nom lang="fr">Validation de code (xmllint)</nom><nom lang="en">Code validation (xmllint)</nom><nom lang="zh">代码验证 (xmllint)</nom>
+                <details lang="fr">Utilisation d'outils en ligne de commande pour auditer et débugger les architectures.</details>
+                <details lang="en">Using command-line tools to audit and debug architectures.</details>
+                <details lang="zh">使用命令行工具审核和调试架构。</details>
+            </item>
+        </categorie>
+
+        <categorie>
+            <titre lang="fr">Front-End &amp; Graphisme Vectoriel</titre>
+            <titre lang="en">Front-End &amp; Vector Graphics</titre>
+            <titre lang="zh">前端与矢量图形</titre>
+            <item>
+                <nom lang="fr">Intégration Web stricte (XHTML5/CSS3)</nom><nom lang="en">Strict Web Integration (XHTML5/CSS3)</nom><nom lang="zh">严格Web集成 (XHTML5/CSS3)</nom>
+                <details lang="fr">Développement avec une exigence systématique de validation W3C.</details>
+                <details lang="en">Development with systematic W3C validation requirements.</details>
+                <details lang="zh">具有系统的W3C验证要求的开发。</details>
+            </item>
+            <item>
+                <nom lang="fr">Transformation visuelle (XML/CSS)</nom><nom lang="en">Visual transformation (XML/CSS)</nom><nom lang="zh">视觉转换 (XML/CSS)</nom>
+                <details lang="fr">Mise en page dynamique de données brutes XML via des feuilles de style CSS.</details>
+                <details lang="en">Dynamic layout of raw XML data via CSS stylesheets.</details>
+                <details lang="zh">通过CSS样式表动态布局原始XML数据。</details>
+            </item>
+            <item>
+                <nom lang="fr">Développement SVG</nom><nom lang="en">SVG Development</nom><nom lang="zh">SVG开发</nom>
+                <details lang="fr">Création d'images vectorielles natives, manipulation de chemins et animations web fluides.</details>
+                <details lang="en">Creation of native vector images, path manipulation, and fluid web animations.</details>
+                <details lang="zh">创建本机矢量图像，路径操作和流畅的Web动画。</details>
+            </item>
+            <item>
+                <nom lang="fr">Intégration DOM</nom><nom lang="en">DOM Integration</nom><nom lang="zh">DOM集成</nom>
+                <details lang="fr">Inclusion valide et sans conflit de code SVG au sein de structures HTML5.</details>
+                <details lang="en">Valid and conflict-free inclusion of SVG code within HTML5 structures.</details>
+                <details lang="zh">在HTML5结构中有效无冲突地包含SVG代码。</details>
+            </item>
+        </categorie>
+
+        <categorie>
+            <titre lang="fr">Méthodologie &amp; Collaboratif</titre>
+            <titre lang="en">Methodology &amp; Collaborative</titre>
+            <titre lang="zh">方法论与协作</titre>
+            <item>
+                <nom lang="fr">Assurance Qualité (QA)</nom><nom lang="en">Quality Assurance (QA)</nom><nom lang="zh">质量保证 (QA)</nom>
+                <details lang="fr">Audit systématique du code produit via les validateurs officiels.</details>
+                <details lang="en">Systematic audit of the produced code via official validators.</details>
+                <details lang="zh">通过官方验证器系统审核生成的代码。</details>
+            </item>
+            <item>
+                <nom lang="fr">Gestion de version (Git)</nom><nom lang="en">Version control (Git)</nom><nom lang="zh">版本控制 (Git)</nom>
+                <details lang="fr">Utilisation de Git et déploiement de projets web via GitHub Pages.</details>
+                <details lang="en">Using Git and deploying web projects via GitHub Pages.</details>
+                <details lang="zh">使用Git并通过GitHub Pages部署Web项目。</details>
+            </item>
+            <item>
+                <nom lang="fr">Rédaction technique</nom><nom lang="en">Technical writing</nom><nom lang="zh">技术写作</nom>
+                <details lang="fr">Vulgarisation de concepts complexes et rédaction de tutoriels clairs pour développeurs.</details>
+                <details lang="en">Popularization of complex concepts and writing clear tutorials for developers.</details>
+                <details lang="zh">推广复杂概念并为开发人员编写清晰教程。</details>
+            </item>
+            <item>
+                <nom lang="fr">Travail en équipe (Wiki)</nom><nom lang="en">Teamwork (Wiki)</nom><nom lang="zh">团队合作 (Wiki)</nom>
+                <details lang="fr">Expérimentée dans la collaboration sur environnements partagés et la gestion de projets.</details>
+                <details lang="en">Experienced in collaboration on shared environments and project management.</details>
+                <details lang="zh">在共享环境协作和项目管理方面经验丰富。</details>
+            </item>
+        </categorie>
+        
+        <categorie>
+            <titre lang="fr">Infrastructures, Cloud &amp; IA</titre>
+            <titre lang="en">Infrastructure, Cloud &amp; AI</titre>
+            <titre lang="zh">基础设施、云与AI</titre>
+            <item><nom lang="fr">Docker &amp; Kubernetes</nom><nom lang="en">Docker &amp; Kubernetes</nom><nom lang="zh">Docker &amp; Kubernetes</nom></item>
+            <item><nom lang="fr">Proxmox VE &amp; Rancher</nom><nom lang="en">Proxmox VE &amp; Rancher</nom><nom lang="zh">Proxmox VE &amp; Rancher</nom></item>
+            <item><nom lang="fr">Linux (Debian, Kali)</nom><nom lang="en">Linux (Debian, Kali)</nom><nom lang="zh">Linux (Debian, Kali)</nom></item>
+            <item><nom lang="fr">Ollama, API IA, Claude Code</nom><nom lang="en">Ollama, AI APIs, Claude Code</nom><nom lang="zh">Ollama, AI APIs, Claude Code</nom></item>
+        </categorie>
+    </competences>
+
+    <projets>
+        <projet id="proj1">
+            <titres>
+                <titre lang="fr">Architecture Backend : Système de Bibliothèque Numérique</titre>
+                <titre lang="en">Backend Architecture: Digital Library System</titre>
+                <titre lang="zh">后端架构：数字图书馆系统</titre>
+            </titres>
+            <descriptions>
+                <description lang="fr">Conception et développement de l'infrastructure complète d'un système de gestion pour une bibliothèque numérique.</description>
+                <description lang="en">Design and development of the complete infrastructure of a management system for a digital library.</description>
+                <description lang="zh">设计和开发数字图书馆管理系统的完整基础设施。</description>
+            </descriptions>
+            <roles>
+                <role lang="fr">Modélisation de la base de données relationnelle sous PostgreSQL. Développement d'une API REST robuste et performante avec Python et le framework FastAPI pour gérer les flux d'emprunts, les utilisateurs et le catalogue.</role>
+                <role lang="en">Relational database modeling in PostgreSQL. Development of a robust and high-performance REST API with Python and the FastAPI framework to manage loan flows, users, and the catalog.</role>
+                <role lang="zh">PostgreSQL中的关系数据库建模。使用Python和FastAPI框架开发强大且高性能的REST API，以管理借阅流程、用户和目录。</role>
+            </roles>
+            <competences_cles>
+                <competence lang="fr">Backend, API REST, Gestion de données.</competence>
+                <competence lang="en">Backend, REST API, Data Management.</competence>
+                <competence lang="zh">后端，REST API，数据管理。</competence>
+            </competences_cles>
+        </projet>
+
+        <projet id="proj2">
+            <titres>
+                <titre lang="fr">Data &amp; Logistique : Étude d'Optimisation Combinatoire</titre>
+                <titre lang="en">Data &amp; Logistics: Combinatorial Optimization Study</titre>
+                <titre lang="zh">数据与物流：组合优化研究</titre>
+            </titres>
+            <descriptions>
+                <description lang="fr">Résolution d'un problème métier complexe : déterminer l'emplacement optimal de points de vente sur un territoire donné.</description>
+                <description lang="en">Resolution of a complex business problem: determining the optimal location of points of sale in a given territory.</description>
+                <description lang="zh">解决复杂的业务问题：确定特定区域内销售点的最佳位置。</description>
+            </descriptions>
+            <roles>
+                <role lang="fr">Modélisation mathématique du problème. Application et comparaison de méthodes de résolution linéaire et d'optimisation combinatoire algorithmique pour maximiser la couverture tout en minimisant les coûts.</role>
+                <role lang="en">Mathematical modeling of the problem. Application and comparison of linear resolution and algorithmic combinatorial optimization methods to maximize coverage while minimizing costs.</role>
+                <role lang="zh">问题的数学建模。应用和比较线性分辨率和算法组合优化方法，以在最小化成本的同时最大化覆盖率。</role>
+            </roles>
+            <competences_cles>
+                <competence lang="fr">Analyse de données, mathématiques appliquées, prise de décision algorithmique.</competence>
+                <competence lang="en">Data analysis, applied mathematics, algorithmic decision making.</competence>
+                <competence lang="zh">数据分析，应用数学，算法决策。</competence>
+            </competences_cles>
+        </projet>
+
+        <projet id="proj3">
+            <titres>
+                <titre lang="fr">Algorithmique Avancée &amp; Graphes</titre>
+                <titre lang="en">Advanced Algorithms &amp; Graphs</titre>
+                <titre lang="zh">高级算法与图</titre>
+            </titres>
+            <descriptions>
+                <description lang="fr"><![CDATA[<strong>Indice Chromatique de Graphe :</strong> Projet de recherche en binôme visant à implémenter l'algorithme du recuit simulé (Simulated Annealing) pour trouver l'indice chromatique de divers graphes complexes. Une excellente approche des heuristiques d'optimisation.<br/><br/><strong>Codage de Huffman :</strong> Implémentation complète de l'algorithme de compression de données sans perte de Huffman. Création de l'arbre binaire, encodage et décodage des flux de texte.]]></description>
+                <description lang="en"><![CDATA[<strong>Graph Chromatic Index:</strong> Pair research project aimed at implementing the Simulated Annealing algorithm to find the chromatic index of various complex graphs. An excellent approach to optimization heuristics.<br/><br/><strong>Huffman Coding:</strong> Complete implementation of the Huffman lossless data compression algorithm. Creation of the binary tree, encoding and decoding of text flows.]]></description>
+                <description lang="zh"><![CDATA[<strong>图色数：</strong>旨在实现模拟退火算法以查找各种复杂图的色数的结对研究项目。优化启发式算法的绝佳方法。<br/><br/><strong>哈夫曼编码：</strong>哈夫曼无损数据压缩算法的完整实现。创建二叉树，文本流的编码和解码。]]></description>
+            </descriptions>
+        </projet>
+
+        <projet id="proj4">
+            <titres>
+                <titre lang="fr">Développement Logiciel &amp; Interface</titre>
+                <titre lang="en">Software Development &amp; Interface</titre>
+                <titre lang="zh">软件开发与界面</titre>
+            </titres>
+            <descriptions>
+                <description lang="fr"><![CDATA[<strong>Morpion (Python) :</strong> Programmation orientée objet d'un jeu de morpion interactif avec gestion des états de victoire et interface console fluide.<br/><br/><strong>Démineur (C) :</strong> Développement bas niveau d'un clone du Démineur. Gestion pointue de la mémoire (pointeurs, allocation dynamique) et manipulation de matrices pour révéler les cases et calculer la proximité des mines.]]></description>
+                <description lang="en"><![CDATA[<strong>Tic-Tac-Toe (Python):</strong> Object-oriented programming of an interactive tic-tac-toe game with victory state management and a fluid console interface.<br/><br/><strong>Minesweeper (C):</strong> Low-level development of a Minesweeper clone. Advanced memory management (pointers, dynamic allocation) and matrix manipulation to reveal squares and calculate mine proximity.]]></description>
+                <description lang="zh"><![CDATA[<strong>井字游戏 (Python)：</strong>交互式井字游戏的面向对象编程，具有胜利状态管理和流畅的控制台界面。<br/><br/><strong>扫雷 (C)：</strong>扫雷克隆的低级开发。高级内存管理（指针，动态分配）和矩阵操作，以揭示方块并计算地雷的接近度。]]></description>
+            </descriptions>
+        </projet>
+    </projets>
+
+</portfolio>
